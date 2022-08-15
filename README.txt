@@ -43,5 +43,5 @@ How do I build this myself?
 Coming soon.
 
 Images -
-![results](https://github.com/ryanmrestivo/Nmap-Portable/raw/main/results.PNG
-![help flag enabled](https://github.com/ryanmrestivo/Nmap-Portable/blob/main/help%20flag.PNG)
+![results](https://github.com/ryanmrestivo/Nmap-Portable/raw/main/results.PNG?raw=true)
+![help flag enabled](https://github.com/ryanmrestivo/Nmap-Portable/blob/main/help%20flag.PNG?raw=true)
