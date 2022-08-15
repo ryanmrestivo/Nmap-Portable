@@ -28,6 +28,10 @@ Testing on Windows XP, 7, 8, 10, 11 for compatability.
 
 How do I scan?
 
+Open PowerShell or CMD
+Navigate to the directory of the binary (nmap-portable.exe)
+./nmap-portable.exe nmap -h
+
 There are some really great documents regarding Nmap.
 
 Check out:
