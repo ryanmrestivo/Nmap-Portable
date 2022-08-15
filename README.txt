@@ -8,7 +8,7 @@ Portable applicaitons are useful in all sorts of enviornments.  I have a tendenc
 
 Have you ever been trying to solve a problem online and come across an old thread with the "answer," only for the link not to work or someone saying "figured it out on my own, nevermind!?"  Well... I was reading a thread from 2008 discussing this topic (https://portableapps.com/node/15594) and realized that very few have taken time to do this... So here we are.
 
-How?
+How did this happen?
 
 Npcap is a resource that nmap needs to function on Windows, so portability has always been a challange.  
 
@@ -33,3 +33,7 @@ There are some really great documents regarding Nmap.
 Check out:
 https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/
 https://nmap.org/book/port-scanning-tutorial.html
+
+How do I build this myself?
+
+Coming soon.
