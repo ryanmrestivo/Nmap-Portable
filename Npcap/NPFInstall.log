@@ -1,0 +1,373 @@
+﻿[0000416C] 2022-08-05 22:20:06 --> wmain
+[0000416C] 2022-08-05 22:20:06     _tmain: executing, argv[0] = C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\NPFInstall.exe.
+[0000416C] 2022-08-05 22:20:06     _tmain: executing, argv[1] = -n.
+[0000416C] 2022-08-05 22:20:06     _tmain: executing, argv[2] = -check_dll.
+[0000416C] 2022-08-05 22:20:06 --> getInUseProcesses
+[0000416C] 2022-08-05 22:20:06 --> enumProcesses
+[0000416C] 2022-08-05 22:20:06 --> getNpcapPIDs
+[0000416C] 2022-08-05 22:20:06 <-- getNpcapPIDs
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = System, dwProcessID = 4.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Registry, dwProcessID = 172.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = smss.exe, dwProcessID = 488.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = csrss.exe, dwProcessID = 616.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = wininit.exe, dwProcessID = 692.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = services.exe, dwProcessID = 836.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = Memory Compression, dwProcessID = 2824.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = MsMpEng.exe, dwProcessID = 3580.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = NisSrv.exe, dwProcessID = 4752.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 1476.
+[0000416C] 2022-08-05 22:20:06     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = csrss.exe, dwProcessID = 1940.
+[0000416C] 2022-08-05 22:20:07     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = SgrmBroker.exe, dwProcessID = 6712.
+[0000416C] 2022-08-05 22:20:07     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 8372.
+[0000416C] 2022-08-05 22:20:07     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = SecurityHealthService.exe, dwProcessID = 3636.
+[0000416C] 2022-08-05 22:20:07     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 16088.
+[0000416C] 2022-08-05 22:20:07     enumDLLs::OpenProcess: error, errCode = 0x00000005, strProcessName = svchost.exe, dwProcessID = 29552.
+[0000416C] 2022-08-05 22:20:07 <-- enumProcesses
+[0000416C] 2022-08-05 22:20:07 <-- getInUseProcesses
+[0000416C] 2022-08-05 22:20:07     _tmain: succeed, nStatus = 0.
+[0000416C] 2022-08-05 22:20:07 <-- wmain
+[000047E0] 2022-08-05 22:20:08 --> wmain
+[000047E0] 2022-08-05 22:20:08     _tmain: executing, argv[0] = C:\Program Files\Npcap\NPFInstall.exe.
+[000047E0] 2022-08-05 22:20:08     _tmain: executing, argv[1] = -n.
+[000047E0] 2022-08-05 22:20:08     _tmain: executing, argv[2] = -c.
+[000047E0] 2022-08-05 22:20:08 --> ClearDriverStore
+[000047E0] 2022-08-05 22:20:08 --> executeCommand
+[000047E0] 2022-08-05 22:20:08     executeCommand: executing, strCmd = pnputil.exe -e.
+[000047E0] 2022-08-05 22:20:08     executeCommand: result = Microsoft PnP Utility
+
+Published name :            oem14.inf
+Driver package provider :   AMD
+Class :                     System devices
+Driver date and version :   04/16/2021 6.0.0.1
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem31.inf
+Driver package provider :   Realtek
+Class :                     Extensions
+Driver date and version :   04/13/2021 1.0.0.87
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem32.inf
+Driver package provider :   Realtek
+Class :                     Extensions
+Driver date and version :   04/13/2021 1.0.0.87
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem19.inf
+Driver package provider :   Advanced Micro Devices Inc.
+Class :                     Security devices
+Driver date and version :   02/09/2021 4.15.0.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem3.inf
+Driver package provider :   DTS
+Class :                     Extensions
+Driver date and version :   03/09/2021 1.1.27.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem4.inf
+Driver package provider :   Realtek Semiconductor Corp.
+Class :                     Extensions
+Driver date and version :   04/27/2021 6.0.9159.1
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem5.inf
+Driver package provider :   Realtek Semiconductor Corp.
+Class :                     Extensions
+Driver date and version :   04/27/2021 6.0.9159.1
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem11.inf
+Driver package provider :   HP Inc.
+Class :                     Extensions
+Driver date and version :   10/31/2018 1.6.817.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem13.inf
+Driver package provider :   HP Inc.
+Class :                     System devices
+Driver date and version :   09/09/2021 1.37.2536.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem12.inf
+Driver package provider :   HP Inc.
+Class :                     Extensions
+Driver date and version :   10/02/2018 1.5.750.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem22.inf
+Driver package provider :   HP Inc.
+Class :                     System devices
+Driver date and version :   05/17/2018 1.0.220.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem21.inf
+Driver package provider :   HP Inc.
+Class :                     Extensions
+Driver date and version :   05/17/2018 1.0.220.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem9.inf
+Driver package provider :   Intel Corporation
+Class :                     Extensions
+Driver date and version :   02/09/2020 21.80.0.3
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem18.inf
+Driver package provider :   NVIDIA
+Class :                     Universal Serial Bus controllers
+Driver date and version :   05/05/2022 1.46.831.832
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem44.inf
+Driver package provider :   NVIDIA
+Class :                     Mice and other pointing devices
+Driver date and version :   06/06/2018 8.16.23319.34391
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem46.inf
+Driver package provider :   NVIDIA
+Class :                     System devices
+Driver date and version :   01/10/2020 3.4.2785.9920
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem23.inf
+Driver package provider :   Razer Inc
+Class :                     Human Interface Devices
+Driver date and version :   01/02/2017 6.2.9200.16534
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem38.inf
+Driver package provider :   Razer Inc
+Class :                     Human Interface Devices
+Driver date and version :   08/18/2020 10.0.15063.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem40.inf
+Driver package provider :   Razer Inc
+Class :                     Keyboards
+Driver date and version :   08/18/2020 10.0.15063.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem41.inf
+Driver package provider :   Razer Inc
+Class :                     Mice and other pointing devices
+Driver date and version :   08/18/2020 10.0.15063.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem39.inf
+Driver package provider :   Razer Inc
+Class :                     Human Interface Devices
+Driver date and version :   08/18/2020 10.0.15063.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem8.inf
+Driver package provider :   Advanced Micro Devices, Inc
+Class :                     System devices
+Driver date and version :   03/08/2020 5.12.0.38
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem7.inf
+Driver package provider :   Synaptics
+Class :                     Human Interface Devices
+Driver date and version :   10/27/2019 19.5.35.48
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem25.inf
+Driver package provider :   HP Inc
+Class :                     System devices
+Driver date and version :   10/10/2018 1.14.3.4
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem20.inf
+Driver package provider :   HP Inc.
+Class :                     Extensions
+Driver date and version :   07/27/2018 1.0.5.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem30.inf
+Driver package provider :   AMD
+Class :                     Sound, video and game controllers
+Driver date and version :   04/14/2021 6.0.0.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem26.inf
+Driver package provider :   DTS
+Class :                     Software components
+Driver date and version :   03/03/2021 1.6.14.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem29.inf
+Driver package provider :   DTS
+Class :                     Software components
+Driver date and version :   02/18/2021 1.6.9.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem6.inf
+Driver package provider :   Realtek Semiconductor Corp.
+Class :                     Sound, video and game controllers
+Driver date and version :   04/27/2021 6.0.9159.1
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem34.inf
+Driver package provider :   HP Inc.
+Class :                     Software components
+Driver date and version :   04/11/2021 4.2.1025.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem33.inf
+Driver package provider :   HP Inc.
+Class :                     Software components
+Driver date and version :   06/17/2022 1.45.3033.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem47.inf
+Driver package provider :   hp
+Class :                     Printers
+Driver date and version :   06/21/2019 8.0.1329.6720
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem24.inf
+Driver package provider :   HP Inc.
+Class :                     Software components
+Driver date and version :   12/13/2021 1.0.798.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem10.inf
+Driver package provider :   Intel Corporation
+Class :                     Bluetooth
+Driver date and version :   01/25/2022 22.120.0.3
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem16.inf
+Driver package provider :   NVIDIA Corporation
+Class :                     Sound, video and game controllers
+Driver date and version :   05/05/2022 1.3.39.3
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem15.inf
+Driver package provider :   NVIDIA
+Class :                     Display adapters
+Driver date and version :   05/05/2022 30.0.15.1278
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem45.inf
+Driver package provider :   NVIDIA
+Class :                     NvModuleTracker
+Driver date and version :   08/11/2020 6.14.24370.22713
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem17.inf
+Driver package provider :   NVIDIA
+Class :                     Software devices
+Driver date and version :   05/05/2022 30.0.15.1173
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem43.inf
+Driver package provider :   NVIDIA
+Class :                     Sound, video and game controllers
+Driver date and version :   09/13/2021 4.39.0.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem28.inf
+Driver package provider :   Realtek
+Class :                     Software components
+Driver date and version :   04/06/2021 11.0.6000.249
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem1.inf
+Driver package provider :   Microsoft
+Class :                     Printers
+Driver date and version :   06/21/2006 10.0.19041.1
+Signer name :               Microsoft Windows
+
+Published name :            oem0.inf
+Driver package provider :   Microsoft
+Class :                     Printers
+Driver date and version :   06/21/2006 10.0.19041.1
+Signer name :               Microsoft Windows
+
+Published name :            oem35.inf
+Driver package provider :   Realtek
+Class :                     Software components
+Driver date and version :   04/27/2021 11.0.6000.901
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem36.inf
+Driver package provider :   Realtek
+Class :                     Software components
+Driver date and version :   04/27/2021 11.0.6000.901
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem27.inf
+Driver package provider :   Realtek
+Class :                     Software components
+Driver date and version :   04/27/2021 1.0.0.369
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem37.inf
+Driver package provider :   Razer Inc
+Class :                     Razer Device
+Driver date and version :   07/07/2020 10.0.15063.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem42.inf
+Driver package provider :   Razer Inc
+Class :                     Razer Device
+Driver date and version :   03/30/2021 10.0.15063.0
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+Published name :            oem2.inf
+Driver package provider :   Advanced Micro Devices, Inc.
+Class :                     Display adapters
+Driver date and version :   06/05/2020 26.20.14054.1001
+Signer name :               Microsoft Windows Hardware Compatibility Publisher
+
+.
+[000047E0] 2022-08-05 22:20:08 <-- executeCommand
+[000047E0] 2022-08-05 22:20:08 --> getInfNamesFromPnpUtilOutput
+[000047E0] 2022-08-05 22:20:08 <-- getInfNamesFromPnpUtilOutput
+[000047E0] 2022-08-05 22:20:08 <-- ClearDriverStore
+[000047E0] 2022-08-05 22:20:08     _tmain: succeed, nStatus = 0.
+[000047E0] 2022-08-05 22:20:08 <-- wmain
+[00004E84] 2022-08-05 22:20:09 --> wmain
+[00004E84] 2022-08-05 22:20:09     _tmain: executing, argv[0] = C:\Program Files\Npcap\NPFInstall.exe.
+[00004E84] 2022-08-05 22:20:09     _tmain: executing, argv[1] = -n.
+[00004E84] 2022-08-05 22:20:09     _tmain: executing, argv[2] = -iw.
+[00004E84] 2022-08-05 22:20:09 --> InstallWFPCallout
+[00004E84] 2022-08-05 22:20:09 --> GetWFPCalloutInfFilePath
+[00004E84] 2022-08-05 22:20:09     lpFilename = C:\Program Files\Npcap\NPCAP_wfp.inf
+[00004E84] 2022-08-05 22:20:09 <-- GetWFPCalloutInfFilePath
+[00004E84] 2022-08-05 22:20:09 --> isFileExist
+[00004E84] 2022-08-05 22:20:09     FindFirstFile: succeed, szFileFullPath = C:\Program Files\Npcap\NPCAP_wfp.inf.
+[00004E84] 2022-08-05 22:20:09 <-- isFileExist
+[00004E84] 2022-08-05 22:20:09     LaunchINFSectionEx: executing, szCmd = C:\Program Files\Npcap\NPCAP_wfp.inf,DefaultInstall,,36,N.
+[00004E84] 2022-08-05 22:20:09 <-- InstallWFPCallout
+[00004E84] 2022-08-05 22:20:09     _tmain: succeed, nStatus = 0.
+[00004E84] 2022-08-05 22:20:09 <-- wmain
+[00003A54] 2022-08-05 22:20:09 --> wmain
+[00003A54] 2022-08-05 22:20:09     _tmain: executing, argv[0] = C:\Program Files\Npcap\NPFInstall.exe.
+[00003A54] 2022-08-05 22:20:09     _tmain: executing, argv[1] = -n.
+[00003A54] 2022-08-05 22:20:09     _tmain: executing, argv[2] = -i2.
+[00003A54] 2022-08-05 22:20:09 --> InstallDriver
+[00003A54] 2022-08-05 22:20:09 --> GetServiceInfFilePath
+[00003A54] 2022-08-05 22:20:09     lpFilename = C:\Program Files\Npcap\NPCAP.inf
+[00003A54] 2022-08-05 22:20:09 <-- GetServiceInfFilePath
+[00003A54] 2022-08-05 22:20:09 --> InstallSpecifiedComponent
+[00003A54] 2022-08-05 22:20:09 --> HrGetINetCfg
+[00003A54] 2022-08-05 22:20:09 <-- HrGetINetCfg
+[00003A54] 2022-08-05 22:20:09 --> HrInstallNetComponent
+[00003A54] 2022-08-05 22:20:09     bWiFiService = 1.
+[00003A54] 2022-08-05 22:20:09     HrInstallComponent: executing, szComponentId = INSECURE_NPCAP.
+[00003A54] 2022-08-05 22:20:09 --> HrInstallComponent
+[00003A54] 2022-08-05 22:20:09 <-- HrInstallComponent
+[00003A54] 2022-08-05 22:20:09     HrInstallComponent: executing, szComponentId = INSECURE_NPCAP_WIFI.
+[00003A54] 2022-08-05 22:20:09 --> HrInstallComponent
+[00003A54] 2022-08-05 22:20:09 <-- HrInstallComponent
+[00003A54] 2022-08-05 22:20:10 <-- HrInstallNetComponent
+[00003A54] 2022-08-05 22:20:10 --> HrReleaseINetCfg
+[00003A54] 2022-08-05 22:20:10 <-- HrReleaseINetCfg
+[00003A54] 2022-08-05 22:20:10 <-- InstallSpecifiedComponent
+[00003A54] 2022-08-05 22:20:10 <-- InstallDriver
+[00003A54] 2022-08-05 22:20:10     _tmain: succeed, nStatus = 0.
+[00003A54] 2022-08-05 22:20:10 <-- wmain

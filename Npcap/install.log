@@ -1,0 +1,289 @@
+Call: 523
+SetFlag: 2=0
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll" (overwriteflag=1)
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll" (overwriteflag=1)
+Jump: 617
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll" (overwriteflag=1)
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll" (overwriteflag=1)
+Jump: 664
+Jump: 693
+DetailPrint: Current date: 2022-08-05 22:20:02
+DetailPrint: Installer version 1.50
+Call: 1118
+Jump: 1150
+Jump: 1153
+DetailPrint: Windows CurrentVersion: 10.0.19044 (Win10)
+Call: 51
+Call: 1254
+IfFileExists: file "C:\Windows\system32\Packet.dll" does not exist, jumping 187
+Call: 188
+Jump: 205
+Jump: 222
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Jump: 316
+Call: 226
+SetFlag: 2=0
+Jump: 246
+Jump: 332
+Jump: 334
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 226
+SetFlag: 2=0
+SetFlag: 2=1
+Call: 108
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=0, allowskipfilesflag=2, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\modern-header.bmp"
+File: wrote 70976 to "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\modern-header.bmp"
+WriteINIStr: wrote [Field 1] State=0 in C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\options.ini
+Jump: 805
+WriteINIStr: wrote [Field 2] State=0 in C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\options.ini
+Jump: 818
+WriteINIStr: wrote [Field 3] State=0 in C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\options.ini
+Jump: 831
+WriteINIStr: wrote [Field 4] State=1 in C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\options.ini
+Jump: 848
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=2, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\InstallOptions.dll"
+File: wrote 14848 to "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\InstallOptions.dll"
+Jump: 883
+Jump: 888
+New install of "Npcap 1.50" to "C:\Program Files\Npcap"
+Section: "WinPcap"
+CreateDirectory: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="NPFInstall.exe"
+File: wrote 307728 to "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\NPFInstall.exe"
+Call: 921
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll"
+File: wrote 6656 to "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll"
+CreateDirectory: "C:\Program Files\Npcap" (1)
+Call: 1153
+File: overwriteflag=0, allowskipfilesflag=2, name="LICENSE"
+File: wrote 11087 to "C:\Program Files\Npcap\LICENSE"
+File: overwriteflag=0, allowskipfilesflag=2, name="DiagReport.bat"
+File: wrote 1073 to "C:\Program Files\Npcap\DiagReport.bat"
+File: overwriteflag=0, allowskipfilesflag=2, name="DiagReport.ps1"
+File: wrote 18020 to "C:\Program Files\Npcap\DiagReport.ps1"
+File: overwriteflag=0, allowskipfilesflag=2, name="FixInstall.bat"
+File: wrote 2491 to "C:\Program Files\Npcap\FixInstall.bat"
+Sleep(100)
+File: overwriteflag=0, allowskipfilesflag=2, name="Uninstall.exe"
+File: wrote 1133272 to "C:\Program Files\Npcap\Uninstall.exe"
+Call: 1524
+CreateDirectory: "C:\Windows\system32" (1)
+Call: 1519
+File: overwriteflag=0, allowskipfilesflag=2, name="wpcap.dll"
+File: wrote 398352 to "C:\Windows\system32\wpcap.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="Packet.dll"
+File: wrote 166416 to "C:\Windows\system32\Packet.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="NpcapHelper.exe"
+File: wrote 116240 to "C:\Windows\system32\NpcapHelper.exe"
+File: overwriteflag=0, allowskipfilesflag=2, name="WlanHelper.exe"
+File: wrote 62480 to "C:\Windows\system32\WlanHelper.exe"
+CreateDirectory: "C:\Windows\system32\Npcap" (1)
+CreateDirectory: "C:\Windows\system32\Npcap" created
+Call: 1519
+File: overwriteflag=0, allowskipfilesflag=2, name="wpcap.dll"
+File: wrote 398352 to "C:\Windows\system32\Npcap\wpcap.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="Packet.dll"
+File: wrote 166416 to "C:\Windows\system32\Npcap\Packet.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="NpcapHelper.exe"
+File: wrote 116240 to "C:\Windows\system32\Npcap\NpcapHelper.exe"
+File: overwriteflag=0, allowskipfilesflag=2, name="WlanHelper.exe"
+File: wrote 62480 to "C:\Windows\system32\Npcap\WlanHelper.exe"
+CreateDirectory: "C:\Program Files\Npcap" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="NPFInstall.exe"
+File: wrote 307728 to "C:\Program Files\Npcap\NPFInstall.exe"
+Call: 1551
+DetailPrint: Installing NDIS6 x64 driver for Win10
+CreateDirectory: "C:\Program Files\Npcap" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap_wfp.inf"
+File: wrote 2405 to "C:\Program Files\Npcap\npcap_wfp.inf"
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap.sys"
+File: wrote 71720 to "C:\Program Files\Npcap\npcap.sys"
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap.cat"
+File: wrote 11148 to "C:\Program Files\Npcap\npcap.cat"
+File: overwriteflag=0, allowskipfilesflag=2, name="npcap.inf"
+File: wrote 8573 to "C:\Program Files\Npcap\npcap.inf"
+Jump: 1574
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll" (overwriteflag=1)
+Call: 1215
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Npcap" "AdminOnly"="0x00000000"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Npcap" "WinPcapCompatible"="0x00000001"
+Jump: 1226
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Npcap" ""="C:\Program Files\Npcap"
+Call: 1540
+CreateDirectory: "C:\Windows\system32" (1)
+Call: 1535
+File: overwriteflag=0, allowskipfilesflag=2, name="wpcap.dll"
+File: wrote 462352 to "C:\Windows\system32\wpcap.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="Packet.dll"
+File: wrote 204816 to "C:\Windows\system32\Packet.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="NpcapHelper.exe"
+File: wrote 138768 to "C:\Windows\system32\NpcapHelper.exe"
+File: overwriteflag=0, allowskipfilesflag=2, name="WlanHelper.exe"
+File: wrote 69648 to "C:\Windows\system32\WlanHelper.exe"
+CreateDirectory: "C:\Windows\system32\Npcap" (1)
+CreateDirectory: "C:\Windows\system32\Npcap" created
+Call: 1535
+File: overwriteflag=0, allowskipfilesflag=2, name="wpcap.dll"
+File: wrote 462352 to "C:\Windows\system32\Npcap\wpcap.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="Packet.dll"
+File: wrote 204816 to "C:\Windows\system32\Npcap\Packet.dll"
+File: overwriteflag=0, allowskipfilesflag=2, name="NpcapHelper.exe"
+File: wrote 138768 to "C:\Windows\system32\Npcap\NpcapHelper.exe"
+File: overwriteflag=0, allowskipfilesflag=2, name="WlanHelper.exe"
+File: wrote 69648 to "C:\Windows\system32\Npcap\WlanHelper.exe"
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll" (overwriteflag=1)
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "UninstallString"=""C:\Program Files\Npcap\uninstall.exe""
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "QuietUninstallString"=""C:\Program Files\Npcap\uninstall.exe" /S"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "DisplayIcon"="C:\Program Files\Npcap\uninstall.exe"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "UninstallPath"="C:\Program Files\Npcap"
+Call: 919
+Call: 1167
+CreateDirectory: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp" (1)
+SetFlag: 2=0
+File: overwriteflag=0, allowskipfilesflag=2, name="combined.p7b"
+File: wrote 9271 to "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\combined.p7b"
+Call: 1158
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll" (overwriteflag=1)
+Delete: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\combined.p7b"
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\combined.p7b")
+DetailPrint: Clearing Npcap entries from driver store
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll" (overwriteflag=1)
+DetailPrint: Installing WFP callout driver
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll" (overwriteflag=1)
+DetailPrint: Installing NDIS filter driver
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll" (overwriteflag=1)
+Jump: 1205
+DetailPrint: The npcap service was successfully created
+Jump: 1215
+DetailPrint: Writing service options to registry
+Call: 1251
+Call: 1226
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap" "Start"="0x00000001"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "LoopbackSupport"="0x00000001"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "DltNull"="0x00000001"
+WriteRegStr: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "Edition"="Npcap"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "AdminOnly"="0x00000000"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "Dot11Support"="0x00000001"
+Jump: 1239
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "VlanSupport"="0x00000000"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap\Parameters" "WinPcapCompatible"="0x00000001"
+Jump: 1251
+Call: 1305
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap" "Start"="0x00000001"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\npcap_wifi" "Start"="0x00000004"
+Call: 1282
+DetailPrint: Starting the npcap driver
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\SimpleSC.dll"
+File: wrote 71840 to "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\SimpleSC.dll"
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\SimpleSC.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\SimpleSC.dll" (overwriteflag=1)
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\SimpleSC.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\SimpleSC.dll" (overwriteflag=1)
+Jump: 1487
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "DisplayName"="Npcap"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "DisplayVersion"="1.50"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "Publisher"="Nmap Project"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "URLInfoAbout"="https://www.npcap.org"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "URLUpdateInfo"="https://www.npcap.org"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "VersionMajor"="1"
+WriteRegStr: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "VersionMinor"="50"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "NoModify"="0x00000001"
+WriteRegDWORD: "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\NpcapInst" "NoRepair"="0x00000001"
+Call: 1311
+CreateDirectory: "C:\Program Files\Npcap" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="CheckStatus.bat"
+File: wrote 1145 to "C:\Program Files\Npcap\CheckStatus.bat"
+DetailPrint: Creating npcapwatchdog scheduled task
+CreateDirectory: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp" (1)
+File: overwriteflag=0, allowskipfilesflag=2, name="npcapwatchdog.ps1"
+File: wrote 10502 to "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\npcapwatchdog.ps1"
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll" (overwriteflag=1)
+Jump: 27
+Call: 1624
+SetFlag: 13=6
+File: overwriteflag=1, allowskipfilesflag=0, name="C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\InstallOptions.dll"
+File: skipped: "C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\InstallOptions.dll" (overwriteflag=1)
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\final.ini")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\InstallOptions.dll")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\modern-header.bmp")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\npcapwatchdog.ps1")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\NPFInstall.exe")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\nsExec.dll")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\options.ini")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\SimpleSC.dll")
+Delete: DeleteFile("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\System.dll")
+RMDir: RemoveDirectory("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\")
+RMDir: RemoveDirectory on Reboot("C:\Users\admin\AppData\Local\Temp\chocolatey\nsz2A4B.tmp\")
