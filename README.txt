@@ -43,4 +43,4 @@ How do I build this myself?
 Coming soon.
 
 Images -
-<img src="/Nmap-Portable/results.png" alt="results of scan" title="Results">
+<img src="https://github.com/ryanmrestivo/Nmap-Portable/blob/main/results.PNG" alt="results of scan" title="Results">
