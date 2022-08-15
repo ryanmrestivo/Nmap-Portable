@@ -43,5 +43,4 @@ How do I build this myself?
 Coming soon.
 
 Images -
-![results](/Nmap-Portable/results.png?raw=true)
-![help flag enabled](/results.png?raw=true)
+<img src="/Nmap-Portable/results.png" alt="results of scan" title="Results">
