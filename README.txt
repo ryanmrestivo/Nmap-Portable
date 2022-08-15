@@ -22,6 +22,14 @@ How can I contribute?
 
 I am open to any contributiors.  Submit a PR or message me on Twitter! :)
 
-#TO DO
+#TODO
 
 Testing on Windows XP, 7, 8, 10, 11 for compatability.
+
+How do I scan?
+
+There are some really great documents regarding Nmap.
+
+Check out:
+https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/
+https://nmap.org/book/port-scanning-tutorial.html
