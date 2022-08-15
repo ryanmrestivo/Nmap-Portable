@@ -41,6 +41,3 @@ https://nmap.org/book/port-scanning-tutorial.html
 How do I build this myself?
 
 Coming soon.
-
-Images -
-<img src="/Nmap-Portable/blob/main/results.PNG" alt="results of scan" title="Results">
