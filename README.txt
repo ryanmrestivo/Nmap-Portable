@@ -41,3 +41,7 @@ https://nmap.org/book/port-scanning-tutorial.html
 How do I build this myself?
 
 Coming soon.
+
+Images -
+![results](https://github.com/ryanmrestivo/Nmap-Portable/raw/main/results.PNG
+![help flag enabled](https://github.com/ryanmrestivo/Nmap-Portable/blob/main/help%20flag.PNG)
